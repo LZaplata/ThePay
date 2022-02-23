@@ -1,0 +1,21 @@
+{
+    "name": "lzaplata/thepay",
+    "description": "ThePay 2.0 wrappper for Nette framework",
+    "keywords": ["nette", "thepay", "gateway"],
+    "homepage": "https://github.com/LZaplata/ThePay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukáš Záplata",
+            "email": "lukas.zaplata@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "nette/di": "~v3.0.12",
+        "thepay/api-client": "~v1.3.3"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
