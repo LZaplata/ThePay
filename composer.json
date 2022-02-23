@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=7.2",
-        "nette/di": "~v3.0.12",
-        "thepay/api-client": "~v1.3.3"
+        "nette/di": "^v3.0.12",
+        "thepay/api-client": "^v1.3.3"
     },
     "autoload": {
         "classmap": ["src/"]
