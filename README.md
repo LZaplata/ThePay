@@ -59,5 +59,5 @@ $payment = $this->thepay->createPayment($paymentParams);
 Redirect to payment gateway.
 
 ````php
-$this->sendResponse($payment->getPayUrl());
+$this->sendResponse(new RedirectResponse($payment->getPayUrl()));
 ````
